@@ -1,4 +1,4 @@
-/* Alapbeállítások */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
     padding: 40px;
 }
 
-/* Táblázat stílusa */
+
 .swot-table {
     width: 100%;
     max-width: 900px;
@@ -17,7 +17,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Cellák stílusa */
+
 .swot-cell {
     width: 50%;
     padding: 25px;
@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-/* Címsorok (ERŐSSÉGEK, stb.) */
+
 .swot-title {
     margin-top: 0;
     margin-bottom: 15px;
@@ -39,7 +39,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* Szövegtörzs */
+
 .swot-text {
     margin: 0;
     font-size: 16px;
@@ -47,7 +47,7 @@ body {
     color: #444;
 }
 
-/* Egér ráhúzás effekt (opcionális, de jól néz ki) */
+
 .swot-cell:hover {
     background-color: #fafafa;
 }

@@ -1,0 +1,53 @@
+/* Alapbeállítások */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Táblázat stílusa */
+.swot-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Cellák stílusa */
+.swot-cell {
+    width: 50%;
+    padding: 25px;
+    border: 1px solid #333;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* Címsorok (ERŐSSÉGEK, stb.) */
+.swot-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Szövegtörzs */
+.swot-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Egér ráhúzás effekt (opcionális, de jól néz ki) */
+.swot-cell:hover {
+    background-color: #fafafa;
+}
